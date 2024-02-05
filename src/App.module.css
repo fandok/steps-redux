@@ -1,0 +1,33 @@
+.steps {
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+}
+
+.step {
+  cursor: pointer;
+}
+
+.stepNumber {
+  font-size: 10px;
+  line-height: 14px;
+  color: #fff;
+  background-color: #0d28a6;
+  padding: 0px 3px;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+.stepNumberPlain {
+  font-size: 10px;
+  line-height: 14px;
+  padding: 0px 3px;
+  border-radius: 10px;
+  margin-right: 8px;
+  border: 1px solid #0d28a6;
+}
+
+.stepText {
+  font-size: 12px;
+  line-height: 18px;
+}
